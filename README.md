@@ -9,9 +9,8 @@ Dieses Repository enthält die Architektur, Spezifikationen und Verarbeitungs-Pi
 
 Der Reader arbeitet als dreistufige Hardware-Software-Pipeline, um aus dem passiven Speichermedium die relationalen Inode-Sequenzen zu rekonstruieren:
 
-```text
 [Physischer Würfel] ➔ [1. Optomechanischer Scan] ➔ [2. Bildverarbeitung/Kalibrierung] ➔ [3. Muster-Extraktion] ➔ [Klartext-Datei]
-```
+
 
 ### 1. Die Hardware-Schnittstelle (Optomechanischer Schicht-Abtaster)
 Um den mit dem *Elegoo Mars* produzierten 6-cm-Zauberwürfel (oder jede andere Polyeder-Klasse) kostengünstig auszulesen, wird ein standardisiertes Low-Cost-Lichtschnittverfahren (Light-Sheet Illumination) eingesetzt:
