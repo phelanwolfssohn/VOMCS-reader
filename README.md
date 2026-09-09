@@ -9,7 +9,7 @@ Dieses Repository enthält die Architektur, Spezifikationen und Verarbeitungs-Pi
 
 Der Reader arbeitet als dreistufige Hardware-Software-Pipeline, um aus dem passiven Speichermedium die relationalen Inode-Sequenzen zu rekonstruieren:
 
-```
+```text
 [Physischer Würfel] ➔ [1. Optomechanischer Scan] ➔ [2. Bildverarbeitung/Kalibrierung] ➔ [3. Muster-Extraktion] ➔ [Klartext-Datei]
 ```
 
